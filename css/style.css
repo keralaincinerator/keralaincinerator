@@ -1,0 +1,265 @@
+
+/*Fixed Black Navbr*/
+/* The navigation bar */
+.navblack {
+    overflow: hidden;
+    height:30px;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.vcenter
+{
+  margin-top: 15%;
+
+}
+
+/* Links inside the navbar */
+.navblack a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*Ends*/
+.quote
+{
+	background:#f7f7f7;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+.spacer{
+background-color: #2A7992;
+}
+
+.alignright {
+  text-align: right;
+}
+.alignleft {
+  text-align: left;
+}
+.aligncenter {
+  text-align: center;
+}
+p {
+    font-size: 18px;
+    line-height: 24px;
+    font-family:"Lato",sans-serif, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.message-quote
+{
+	padding-top: 20px;
+}
+@media(max-width: 756px)
+{
+  .message .message-quote
+  {
+    padding-left: 5px;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .message .message-quote blockquote
+  {
+    font-size: 18px;
+    font-size-adjust: auto;
+  }
+  .vcenter
+{
+  margin-top: 50%;
+
+}
+}
+
+
+
+/*Gallery Codes */
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.btn-primary .filter-button {
+  color: #2a7992;
+  background-color: white;
+}
+.filter-button
+{
+
+
+  color: white;
+  background-color: #2a7992;
+  border-color: #2a7992;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 2px;
+  padding: 10px 20px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 6px 4px;
+
+}
+.filter-button:hover
+{
+  color: white;
+  background-color: #2A7992;
+  border-color: #f6bf01;
+  text-align: center;
+}
+
+}
+
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+
+/*Quote */
+
+blockquote {
+  font-size:18px;
+  border:none;
+  padding:0;
+  background:none;
+  color:white;
+}
+
+blockquote.large {
+  font-size:36px;
+  font-weight:700;
+  line-height:1.1em;
+}
+blockquote.large:before {
+  font-size:64px;
+  font-family: FontAwesome;
+  content: "\f10d";
+  margin-right:20px;
+}
+
+blockquote cite             { display:block; font-size:12px;}
+blockquote cite:before          { content:"\2014 \0020"; }
+blockquote cite a,
+blockquote cite a:visited,
+blockquote cite a:visited         { color:#555; }
+section.spacer blockquote.large:before {
+  color:#eee;
+  opacity:0.6;
+}
+
+section.spacer blockquote cite {
+  color:#555;
+}
+
+.clearfix
+{
+  margin-top:50px;
+}
+
+
+/*Tech Page Link*/
+
+.new_page_link
+{
+  color:#333;
+      -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.new_page_link:hover
+{
+  color:#2A7992;
+  text-decoration: none;
+  cursor:pointer;
+
+}
+
+.new_page_link_last
+{
+  color:white;
+      -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.new_page_link_last:hover
+{
+  color:#2A7992;
+  text-decoration: none;
+  cursor:pointer;
+
+}
+
+
+.gallery_img
+{
+  filter: brightness(40%);
+  -webkit-transition: filter 0.2s;
+  -moz-transition: filter 0.2s;
+  transition: filter 0.2s;
+
+}
+.gallery_img:hover
+{
+    filter: brightness(100%);
+}
+.navbar-brand
+{
+  padding-top: 0px;
+}
+
+
+@media (max-width: 767px)
+{
+    .tech_link
+  {
+    margin-top: 55px;
+  }
+    .navbar-brand {
+        padding-top: 10px;        
+    }
+}
