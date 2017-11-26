@@ -269,11 +269,15 @@ section.spacer blockquote cite {
     padding-top: 15px;
     padding-bottom: 15px;
     border: 1px solid transparent;
-    background:#2a7992;
     color:white;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-left:5px;
     padding-right: 5px;
+      background-color: #2a7992;
     font-weight: 400;
     letter-spacing: 1px; 
+}
+.gallery-btn:hover
+{
+  text-decoration: none;
 }
